@@ -100,8 +100,17 @@ export const projects = [
     github: null,
   },
   {
-    id: "ecommerce",
+    id: "fittrib",
     num: "03",
+    title: "FitTrib — Social Fitness App",
+    desc: "Native Android social fitness app built by a team of 4. As Developer 3, I built the nutrition module (food log + API-backed food search) and the Tribs community feature (groups, feed, and real-time chat). MVVM architecture with Firebase and Room.",
+    tech: ["Java", "Android", "Firebase", "Retrofit"],
+    category: "Mobile",
+    github: "https://github.com/KESHAV8087/fittrib",
+  },
+  {
+    id: "ecommerce",
+    num: "04",
     title: "E-Commerce Management System",
     desc: "Led a team of 3 to build a full-stack inventory and order management platform with real-time stock tracking, analytics dashboards, and role-based access control.",
     tech: ["Python", "MongoDB", "Flask"],
@@ -110,7 +119,7 @@ export const projects = [
   },
   {
     id: "cv-pipeline",
-    num: "04",
+    num: "05",
     title: "CV Pipeline — Automated Labeling",
     desc: "Built at Aurify Systems: OpenCV + PyTorch computer vision pipeline for automated dataset labeling. CNN model reduced manual annotation effort by 50%, enabling faster training data generation.",
     tech: ["PyTorch", "OpenCV", "CNNs"],
@@ -119,7 +128,7 @@ export const projects = [
   },
   {
     id: "weather",
-    num: "05",
+    num: "06",
     title: "Real-Time Weather Scraper",
     desc: "Python scraping application with BeautifulSoup + multi-source API integration, providing unified real-time weather data with location-aware querying and historical trend storage.",
     tech: ["Python", "BeautifulSoup", "APIs"],
@@ -128,7 +137,7 @@ export const projects = [
   },
   {
     id: "deloitte-automation",
-    num: "06",
+    num: "07",
     title: "Deloitte Automation Workflows",
     desc: "Designed Python automation pipelines for enterprise audit workflows at Deloitte, reducing manual effort by 30% and integrating AI-assisted review into compliance processes at scale.",
     tech: ["Python", "SAP", "Bash"],

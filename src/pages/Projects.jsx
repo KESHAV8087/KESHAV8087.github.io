@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { projects } from '../data/content';
 import Reveal from '../components/Reveal';
 
-const categories = ['All', 'AI/ML', 'Computer Vision', 'Full-Stack', 'Automation'];
+const categories = ['All', 'AI/ML', 'Mobile', 'Computer Vision', 'Full-Stack', 'Automation'];
 
 export default function Projects() {
   const [filter, setFilter] = useState('All');
