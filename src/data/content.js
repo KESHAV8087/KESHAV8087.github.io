@@ -20,7 +20,7 @@ export const profile = {
 export const stats = [
   { num: "3.33", label: "GPA · Northeastern" },
   { num: "2+", label: "Years Industry Exp." },
-  { num: "94.2%", label: "Published Model Acc." },
+  { num: "97.4%", label: "Best Model Accuracy" },
   { num: "2", label: "Research Projects" },
 ];
 
@@ -73,10 +73,10 @@ export const research = [
     tags: ["LangChain", "RAG", "Prompt Engineering", "LLM Evaluation", "Python"],
   },
   {
-    type: "Published · IJSDR · May 2023",
-    title: "Deep Learning-Based Phishing URL Detection Using Bi-LSTM",
-    desc: "Designed and trained a Bi-directional LSTM classifier achieving 94.2% accuracy on phishing URL detection. The model leveraged character-level sequence encoding to distinguish malicious URLs from legitimate ones, outperforming prior CNN and traditional ML baselines on the same benchmark dataset.",
-    tags: ["Bi-LSTM", "TensorFlow", "NLP", "Cybersecurity", "IJSDR"],
+    type: "Published · IJSDR · 2023",
+    title: "Phishing URL Detection Using Machine Learning",
+    desc: "Co-authored paper (with S. Agarwal) on detecting phishing URLs from lexical and structural features. Benchmarked multiple machine learning classifiers on a large URL dataset to identify the most effective approach for distinguishing malicious URLs from legitimate ones without manual content inspection.",
+    tags: ["Machine Learning", "Classification", "Cybersecurity", "IJSDR", "Python"],
   },
 ];
 
@@ -94,7 +94,7 @@ export const projects = [
     id: "phishing-ml",
     num: "02",
     title: "Phishing URL Detection (ML Comparison)",
-    desc: "Comparative study of 8+ ML classifiers on 11,054 URLs with 30 engineered features. Benchmarked Logistic Regression, SVM, Random Forest, Gradient Boosting, XGBoost and more on accuracy, F1, precision and recall. Gradient Boosting led at 97.4% test accuracy.",
+    desc: "Comparative study of 8+ ML classifiers on 11,054 URLs with 30 engineered features, benchmarked on accuracy, F1, precision, and recall. Gradient Boosting led at 97.4% test accuracy. This work formed the basis of a co-authored paper published in IJSDR (2023).",
     tech: ["Python", "scikit-learn", "XGBoost"],
     category: "AI/ML",
     github: "https://github.com/KESHAV8087/Detection-of-Phishing-URL-s-using-Machine-Learning",
@@ -192,7 +192,7 @@ export const education = [
     location: "Chennai, India",
     role: "B.Tech Computer Science · GPA 8.62 / 10",
     bullets: [
-      "Published deep learning research in IJSDR during final year — Bi-LSTM phishing URL classifier at 94.2% accuracy.",
+      "Co-authored a published IJSDR paper on machine learning-based phishing URL detection during final year.",
       "Coursework: Data Structures, Software Engineering, Operating Systems, Computer Networking.",
     ],
     tags: ["Data Structures", "Software Engineering", "Operating Systems", "Networking"],
