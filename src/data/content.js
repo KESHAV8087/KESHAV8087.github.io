@@ -127,8 +127,17 @@ export const projects = [
     github: null,
   },
   {
-    id: "weather",
+    id: "car-price",
     num: "06",
+    title: "Car Price Prediction",
+    desc: "Early ML coursework project (2022) predicting used-car resale value from specs like year, mileage, and ownership. Compared Linear and Lasso regression on the CarDekho dataset, reaching 0.87 test R². A foundational regression project from my B.Tech AI studies.",
+    tech: ["Python", "scikit-learn", "pandas"],
+    category: "AI/ML",
+    github: "https://github.com/KESHAV8087/Car-Price-Prediction",
+  },
+  {
+    id: "weather",
+    num: "07",
     title: "Real-Time Weather Scraper",
     desc: "Python scraping application with BeautifulSoup + multi-source API integration, providing unified real-time weather data with location-aware querying and historical trend storage.",
     tech: ["Python", "BeautifulSoup", "APIs"],
@@ -137,7 +146,7 @@ export const projects = [
   },
   {
     id: "deloitte-automation",
-    num: "07",
+    num: "08",
     title: "Deloitte Automation Workflows",
     desc: "Designed Python automation pipelines for enterprise audit workflows at Deloitte, reducing manual effort by 30% and integrating AI-assisted review into compliance processes at scale.",
     tech: ["Python", "SAP", "Bash"],
