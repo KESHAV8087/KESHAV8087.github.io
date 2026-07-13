@@ -91,13 +91,13 @@ export const projects = [
     github: null,
   },
   {
-    id: "phishing",
+    id: "phishing-ml",
     num: "02",
-    title: "Bi-LSTM Phishing Detector",
-    desc: "Published deep learning model for real-time phishing URL classification. Character-level Bi-LSTM architecture trained on 500K+ URLs achieving 94.2% accuracy. Outperformed SVM and CNN baselines.",
-    tech: ["TensorFlow", "Bi-LSTM", "NLP"],
+    title: "Phishing URL Detection (ML Comparison)",
+    desc: "Comparative study of 8+ ML classifiers on 11,054 URLs with 30 engineered features. Benchmarked Logistic Regression, SVM, Random Forest, Gradient Boosting, XGBoost and more on accuracy, F1, precision and recall. Gradient Boosting led at 97.4% test accuracy.",
+    tech: ["Python", "scikit-learn", "XGBoost"],
     category: "AI/ML",
-    github: null,
+    github: "https://github.com/KESHAV8087/Detection-of-Phishing-URL-s-using-Machine-Learning",
   },
   {
     id: "fittrib",
