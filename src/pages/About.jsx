@@ -17,7 +17,7 @@ export default function About() {
           <Reveal><h2 className="font-serif text-2xl font-normal text-text mt-14 mb-6 pl-6 relative">
             <span className="absolute left-0 top-[0.5em] w-2 h-2 rounded-full bg-accent" style={{ boxShadow: '0 0 16px rgba(91,69,245,0.6)' }} />The Pivot</h2></Reveal>
           <Reveal><p>The shift wasn't a single dramatic moment. It was the slow realization that the parts of my job I genuinely enjoyed — designing Python automations, integrating early AI tooling into compliance reviews, mentoring analysts on technical problems — all pointed in one direction. The audit work paid the bills; the ML-adjacent work made me lose track of time.</p></Reveal>
-          <Reveal><p>I'd already co-authored a published ML paper in undergrad — on phishing URL detection, in IJSDR — but I had told myself it was a one-off. Two years later, watching the GPT-3 to GPT-4 jump unfold while I was writing security exception requests, I decided to stop telling myself that.</p></Reveal>
+          <Reveal><p>I'd already co-authored a published ML paper in undergrad — on phishing URL detection, in IJSDR — but I had told myself it was a one-off. Two years later, watching the GPT-3 to GPT-4 jump unfold while I was writing security exception requests, I decided to stop telling myself that.</p></Reveal>npm run deploy
 
           <Reveal><div className="font-serif text-2xl italic font-light text-accent leading-snug py-8 pl-8 my-10" style={{ borderLeft: '2px solid #5b45f5', background: 'linear-gradient(to right, rgba(91,69,245,0.04), transparent)' }}>"I didn't want to be the person who almost did ML."</div></Reveal>
 
