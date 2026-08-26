@@ -18,7 +18,7 @@ export const profile = {
 };
 
 export const stats = [
-  { num: "3.33", label: "GPA · Northeastern" },
+  { num: "3.46", label: "GPA · Northeastern" },
   { num: "2+", label: "Years Industry Exp." },
   { num: "97.4%", label: "Best Model Accuracy" },
   { num: "2", label: "Research Projects" },
@@ -197,7 +197,7 @@ export const education = [
     period: "Sept 2025 – May 2027",
     company: "Northeastern University",
     location: "Boston, MA",
-    role: "M.S. Computer Science · GPA 3.33",
+    role: "M.S. Computer Science · GPA 3.46",
     bullets: [
       "Specializing in AI/ML with research focus on LLM hallucination mitigation and RAG evaluation.",
       "Coursework: Machine Learning, Algorithms (CS5800), Database Management Systems, Programming Design Paradigms.",
